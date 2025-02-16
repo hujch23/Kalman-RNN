@@ -4,6 +4,35 @@ KalmanNet 是一种结合经典卡尔曼滤波器（Kalman Filter, KF）和深�
 
 ---  
 
+
+## 🔬 1. Model-free
+
+🙌 Official implementation of IEEE Robotics and Automation Letters accepted paper ["A New Representation of Universal Successor Features for Enhancing the Generalization of Target-driven Visual Navigation"](https://ieeexplore.ieee.org/document/10623277)
+
+---  
+#### 🚀 1.1 Research Background 
+- **Problem Definition**: How to address poor generalization in reinforcement learning for visual navigation task.  
+- **Research Significance**: Traditional methods perform poorly in new targets or environments, lacking universality.  
+- **Challenges**: Complex state spaces and diverse goal representations.
+
+#### 🛰️ 1.2 Research Methods  
+- The framework incorporates Successor Features into the A3C architecture.（Derived from cognitive science principles, SF emulates neural mechanisms for constructing reusable predictive maps. This approach achieves reward-dynamics decomposition, facilitating rapid policy adaptation to reward modifications and enabling the acquisition of transferable environmental dynamics representations across task distributions.）📝 中文翻译：将SF与A3C算法结合。SF源自认知科学领域，模拟大脑如何创建可重用的预测地图。将奖励和环境动态解耦，使得策略可以快速适应奖励变化，能够学习多个任务之间可迁移的环境动态表征。
+- Implementation of state-feature-based prediction mechanisms to establish parsimonious dynamics models in latent space for SF estimation. 📝 中文翻译：使用状态特征预测SF来创建潜在的简约动力学模型。
+- Acquisition of compact rule sets within the latent state manifold to optimize successor feature prediction and extraction, enhancing the model's representational capacity.📝 中文翻译：在潜在状态中学习规则集，有助于预测和获取后继特征。
+
+![Example Image](Train/figs/SF.jpg)  
+  
+#### 🏆 1.3 Experimental Results  
+- **Datasets**: Tested in multiple simulation environments (e.g., AI2-THOR, Habitat). 
+- **Performance Metrics**:
+  - Success Rate (SR)
+  - Success weighted by Path Length (SPL)
+  - Continuous Learning Performance 
+- **Conclusions**:
+  - Achieving state-of-the-art performance in the generalization of target, scenarios, and domains.
+  - Demonstrating strong resistance to catastrophic forgetting in continual learning.
+
+
 ## 核心特点  
 
 1. **混合架构**：结合模型驱动（Model-Based, MB）和数据驱动（Data-Driven, DD）方法的优势。  
