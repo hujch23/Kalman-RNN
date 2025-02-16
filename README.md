@@ -17,9 +17,9 @@ KalmanNet 是一种结合经典卡尔曼滤波器（Kalman Filter, KF）和深�
   - DNN-enhanced filtering methods provide powerful learning capabilities but with high computational complexity  
   - Need for a lightweight real-time state estimator that balances performance and efficiency
 - **Challenges**:
-  - Handling unknown noise statistics and model mismatches  
-  - Ensuring real-time performance in resource-constrained environments  
-  - Designing compact and efficient neural network architectures
+  - Handling unknown noise statistics and model mismatches.  
+  - Ensuring real-time performance in resource-constrained environments.  
+  - Designing compact and efficient neural network architectures.
 
 #### 🛰️ 1.2 Research Methods  
 - The framework incorporates Successor Features into the A3C architecture.（Derived from cognitive science principles, SF emulates neural mechanisms for constructing reusable predictive maps. This approach achieves reward-dynamics decomposition, facilitating rapid policy adaptation to reward modifications and enabling the acquisition of transferable environmental dynamics representations across task distributions.）📝 中文翻译：将SF与A3C算法结合。SF源自认知科学领域，模拟大脑如何创建可重用的预测地图。将奖励和环境动态解耦，使得策略可以快速适应奖励变化，能够学习多个任务之间可迁移的环境动态表征。
