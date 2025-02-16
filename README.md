@@ -27,18 +27,18 @@ By introducing Recurrent Neural Network (RNN) modules to learn the Kalman Gain, 
   
 #### 🏆 1.3 Experimental Results  
 - **Experimental Setup**:
-  - Evaluation on linear, nonlinear, and chaotic systems  
-  - Tasks include kinematic state estimation, chaotic Lorenz system tracking, and UAV localization  
-  - Comparison with KalmanNet, EKF, UKF, and PF methods 
+  - Evaluation on linear, nonlinear, and chaotic systems.  
+  - Tasks include kinematic state estimation, chaotic Lorenz system tracking, and UAV localization.  
+  - Comparison with KalmanNet, EKF, UKF, and PF methods. 
 - **Performance Metrics**:
-  - Mean Squared Error (MSE) of state estimation  
-  - Computation time and inference latency  
-  - Robustness under model mismatch conditions
+  - Mean Squared Error (MSE) of state estimation.  
+  - Computation time and inference latency.  
+  - Robustness under model mismatch conditions.
 - **Conclusions**:
-  - Outperforms traditional model-based filters in nonlinear and model mismatch conditions  
-  - 28.2% faster inference speed compared to KalmanNet while maintaining comparable accuracy  
-  - 20.8% reduction in localization error for UAV positioning tasks  
-  - Excellent real-time performance in resource-constrained scenarios
+  - Outperforms traditional model-based filters in nonlinear and model mismatch conditions.  
+  - 28.2% faster inference speed compared to KalmanNet while maintaining comparable accuracy.  
+  - 20.8% reduction in localization error for UAV positioning tasks.  
+  - Excellent real-time performance in resource-constrained scenarios.
 
 
 
