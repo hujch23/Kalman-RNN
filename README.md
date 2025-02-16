@@ -1,6 +1,6 @@
 # KalmanNet: 基于神经网络的卡尔曼滤波器，用于部分已知动态系统  
 
-KalmanNet 是一种结合经典卡尔曼滤波器（Kalman Filter, KF）和深度学习的混合算法，专为处理部分已知动态系统的实时状态估计问题而设计。它通过引入循环神经网络（RNN）模块，学习卡尔曼增益（Kalman Gain），从而克服非线性和模型失配问题，同时保留了经典卡尔曼滤波器的低复杂度和可解释性。  
+By introducing Recurrent Neural Network (RNN) modules to learn the Kalman Gain, it overcomes nonlinearity and model mismatch problems while maintaining the low complexity and interpretability of the classic Kalman filter.
 
 ---  
 
