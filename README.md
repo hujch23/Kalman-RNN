@@ -1,4 +1,4 @@
-# 🧸  Kalman + RNN
+# 🧸  Kalman Filter + RNN
 
 
 ## 🌟 0. Overview
