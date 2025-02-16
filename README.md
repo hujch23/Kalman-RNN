@@ -1,6 +1,5 @@
 # 🧸  
 
-🙌 Official implementation of ICML 2025 under-review paper " "
 
 ## 🌟 0. Overview
 Shenzhen Higher Education Institution Stability Support Program: Exploring new state estimation methods that integrate deep learning with traditional filtering theory to address robustness issues in state estimation for unmanned systems operating in complex dynamic environments.
@@ -10,8 +9,7 @@ Shenzhen Higher Education Institution Stability Support Program: Exploring new s
 
 ## 🔬 1. KNet
 
-
-By introducing Recurrent Neural Network (RNN) modules to learn the Kalman Gain, it overcomes nonlinearity and model mismatch problems while maintaining the low complexity and interpretability of the classic Kalman filter.
+🙌 Official implementation of ICML 2025 under-review paper " ". By introducing Recurrent Neural Network (RNN) modules to learn the Kalman Gain, it overcomes nonlinearity and model mismatch problems while maintaining the low complexity and interpretability of the classic Kalman filter.
 
 ---  
 
