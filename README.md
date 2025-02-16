@@ -1,4 +1,4 @@
-# 🧸 Kalman + RNN 
+# 🧸  
 
 🙌 Official implementation of ICML 2025 under-review paper " "
 
@@ -8,7 +8,7 @@ By introducing Recurrent Neural Network (RNN) modules to learn the Kalman Gain, 
 ---  
 
 
-## 🔬 1. 
+## 🔬 1. KNet
 
 ---  
 #### 🚀 1.1 Research Background 
