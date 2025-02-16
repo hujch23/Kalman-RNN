@@ -25,7 +25,10 @@ KalmanNet 是一种结合经典卡尔曼滤波器（Kalman Filter, KF）和深�
 
   
 #### 🏆 1.3 Experimental Results  
-- **Experimental Setup**: Tested in multiple simulation environments (e.g., AI2-THOR, Habitat). 
+- **Experimental Setup**:
+  - Evaluation on linear, nonlinear, and chaotic systems  
+  - Tasks include kinematic state estimation, chaotic Lorenz system tracking, and UAV localization  
+  - Comparison with KalmanNet, EKF, UKF, and PF methods 
 - **Performance Metrics**:
   - Mean Squared Error (MSE) of state estimation  
   - Computation time and inference latency  
