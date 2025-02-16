@@ -1,4 +1,4 @@
-# 🧸  Brain-Inspired Mechanisms for Intelligent and Trustworthy Navigation Technology in Unmanned Systems
+# 🧸  Kalman + RNN
 
 
 ## 🌟 0. Overview
