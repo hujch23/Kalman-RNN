@@ -1,5 +1,7 @@
 # 🧸 Kalman + RNN 
 
+🙌 Official implementation of ICML 2025 under-review paper " "
+
 ## 🌟 0. Overview
 By introducing Recurrent Neural Network (RNN) modules to learn the Kalman Gain, it overcomes nonlinearity and model mismatch problems while maintaining the low complexity and interpretability of the classic Kalman filter.
 
@@ -7,8 +9,6 @@ By introducing Recurrent Neural Network (RNN) modules to learn the Kalman Gain, 
 
 
 ## 🔬 1. 
-
-🙌 Official implementation of ICML 2025 under-review paper " "
 
 ---  
 #### 🚀 1.1 Research Background 
