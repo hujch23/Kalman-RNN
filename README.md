@@ -1,4 +1,4 @@
-# 🧸  
+# 🧸  Brain-Inspired Mechanisms for Intelligent and Trustworthy Navigation Technology in Unmanned Systems
 
 
 ## 🌟 0. Overview
