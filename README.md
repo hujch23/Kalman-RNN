@@ -13,9 +13,9 @@ KalmanNet 是一种结合经典卡尔曼滤波器（Kalman Filter, KF）和深�
 #### 🚀 1.1 Research Background 
 - **Problem Definition**: How to achieve efficient state estimation in scenarios with unknown noise statistics, model mismatches, and limited computational resources.  
 - **Research Significance**:
-  - Traditional filtering methods heavily rely on domain knowledge and system models, limiting performance in complex scenarios  
-  - DNN-enhanced filtering methods provide powerful learning capabilities but with high computational complexity  
-  - Need for a lightweight real-time state estimator that balances performance and efficiency
+  - Traditional filtering methods heavily rely on domain knowledge and system models, limiting performance in complex scenarios.  
+  - DNN-enhanced filtering methods provide powerful learning capabilities but with high computational complexity.  
+  - Need for a lightweight real-time state estimator that balances performance and efficiency.
 - **Challenges**:
   - Handling unknown noise statistics and model mismatches.  
   - Ensuring real-time performance in resource-constrained environments.  
